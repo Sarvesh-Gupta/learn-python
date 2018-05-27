@@ -12,10 +12,10 @@
 
 ## Time Complexity
 
-### Read
+### Read/Update 
 * O(1)
 
-### Write (insert and delete)
+### Add/Remove
 * At the end - O(1)
     * We know size of the array, hence finding the element where we need to write is constant time.
 * At the beginning - O(n)
